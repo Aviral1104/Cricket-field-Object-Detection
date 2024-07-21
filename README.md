@@ -1,9 +1,5 @@
 # Cricket-field-Object-Detection
-The code is designed to train a YOLOv8 object detection model on a custom dataset of cricket images.
-"data_yaml" dictionary
-  train: The path to the training images.
-  val: The path to the validation images.
-  test: The path to the test images.
-  nc: The number of classes in the dataset (3 in this case: ball, bat, pitch).
-  names: The names of the classes.
-  The yaml.dump() function is used to save the data_yaml dictionary to a file named data.yaml in the dataset_path directory.
+The code demonstrates the process of training a YOLOv8 object detection model on a custom cricket dataset.
+It begins by importing necessary libraries and defining the dataset path, followed by creating a data.yaml file that specifies the paths to training, validation, and test images, the number of classes, and their names.
+The YOLO model is then initialized using pre-trained weights, and the training process is executed for 50 epochs with a specified input image size and batch size. After training, the model is evaluated on the validation set, and inference is performed on a specific image to detect objects.
+Finally, the trained model is exported in ONNX format for compatibility with other frameworks. This code effectively encapsulates the workflow for training, evaluating, and deploying a YOLOv8 model on a custom dataset.
