@@ -12,3 +12,5 @@ When applied to video object detection, YOLO processes each frame of the video i
 https://drive.google.com/file/d/12hs2Fy9Sbx0MWycYCgU-UotIZaP0p5-c/view?usp=sharing
 
 This is the first draft and is kind of like, how Americans would see cricket, more fine tuning is required.
+
+Video Credit: https://www.youtube.com/@officialenglandcricket
