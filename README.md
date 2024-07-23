@@ -6,3 +6,9 @@ Finally, the trained model is exported in ONNX format for compatibility with oth
 
 ![Prdeicted image 2](https://github.com/user-attachments/assets/579e0720-8037-4e49-b7aa-2aaa1d4a277f)
 
+#YOLO-for-object-detection-in videos
+When applied to video object detection, YOLO processes each frame of the video independently, treating it as a single image. The algorithm divides each frame into a grid and predicts bounding boxes and class probabilities for objects within each grid cell. YOLO's strength lies in its ability to perform detection in a single forward pass through the neural network, making it fast enough for real-time video processing. To use YOLO for video object detection, you typically load a pre-trained YOLO model, read video frames sequentially, apply the model to each frame to detect objects, draw bounding boxes and labels on the detected objects, and then either display the processed frame in real-time or write it to an output video file. This process is repeated for every frame in the video, resulting in a continuous stream of object detection throughout the entire video sequence.
+
+https://drive.google.com/file/d/12hs2Fy9Sbx0MWycYCgU-UotIZaP0p5-c/view?usp=sharing
+
+This is the first draft and is kind of like, how Americans would see cricket, more fine tuning is required.
